@@ -2,7 +2,7 @@
 data "azurerm_client_config" "current" {}
 
 resource "azurerm_key_vault" "kv" {
-  name                        = "keyvault0369"
+  name                        = "keyvault_name"
   location                    = var.location
   resource_group_name         = var.rg_name
   enabled_for_disk_encryption = true
