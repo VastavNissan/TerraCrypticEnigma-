@@ -1,6 +1,6 @@
 variable "rg_name" {
   description = "The name of the existing Azure resource group"
-  default     = "rg_sb_eastus_71650_1_17035979979"
+  default     = "Provide resource group name"
 }
 
 variable "location" {
@@ -10,11 +10,11 @@ variable "location" {
 
 variable "tid" {
   description = "Tenant ID"
-  default     = "82676786-5bc7-43c6-b8f8-b3ee02b0b5f3"
+  default     = "Mention the tenant id"
 }
 
 variable "oid" {
   description = "Object ID"
-  default     = "0fe86726-5376-4e7a-a23a-d98558038f28"
+  default     = "Mention the object id"
 
 }
